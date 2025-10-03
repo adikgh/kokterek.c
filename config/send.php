@@ -1,10 +1,10 @@
 <?
 
 	// bot
-	// https://api.telegram.org/bot8198966222:AAGyuAaQLmf6kpKvjr9HxcuI0C231MW_Zzk/getUpdates
+	// https://api.telegram.org/bot7343542404:AAFfAXvhvFQyDgEX0BxKd5fEgrCf1shHO4w/getUpdates
 		
-	$token = "8198966222:AAGyuAaQLmf6kpKvjr9HxcuI0C231MW_Zzk";
-	$chat_id = "-1002612096336";
+	$token = "7343542404:AAFfAXvhvFQyDgEX0BxKd5fEgrCf1shHO4w";
+	$chat_id = "-1003115064170";
 	$txt = '';
 
 	// 
