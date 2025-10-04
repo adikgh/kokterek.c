@@ -3,28 +3,47 @@
 	// bot
 	// https://api.telegram.org/bot7343542404:AAFfAXvhvFQyDgEX0BxKd5fEgrCf1shHO4w/getUpdates
 		
-	$token = "7343542404:AAFfAXvhvFQyDgEX0BxKd5fEgrCf1shHO4w";
+	$token   = "7343542404:AAFfAXvhvFQyDgEX0BxKd5fEgrCf1shHO4w";
 	$chat_id = "-1003115064170";
-	$txt = '';
+	$txt     = '';
 
-	// 
-	if(isset($_GET['mess'])) {
-		$sms = strip_tags($_POST['sms']);
+	// Проверяем, что запрос пришел
+	if (isset($_GET['mess'])) {
+		$sms   = strip_tags($_POST['sms']);
 		$name  = strip_tags($_POST['name']);
 		$phone = strip_tags($_POST['phone']);
+		// Если надо, можно подкорректировать телефон
 		// $phone = substr_replace($phone, '', 0, 1);
 		// $phone = substr_replace($phone, '8', 0, 1);
 
-		$arr = array(
-			// 'Cайт: '	=> 'Басты',
-			'Типі: ' => $sms,
+		// Формируем массив
+		$arr = [
+			'Типі: '     => $sms,
 			'Аты-жөні: ' => $name,
-			'Телефон: ' => $phone
-		);
+			'Телефон: '  => $phone
+		];
 
-		foreach ($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-		if ($sendToTelegram) echo "yes"; else echo "error";
+		foreach ($arr as $key => $value) {
+			$txt .= "<b>".$key."</b> ".$value."\n";
+		}
+
+		// URL запроса
+		$url = "https://api.telegram.org/bot{$token}/sendMessage";
+
+		// Настройки curl
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, [
+			'chat_id'    => $chat_id,
+			'parse_mode' => 'html',
+			'text'       => $txt
+		]);
+		$response = curl_exec($ch);
+		if (curl_errno($ch)) echo "error: " . curl_error($ch);
+		else echo "yes";
+		curl_close($ch);
 
 		exit();
 	}
@@ -42,8 +61,24 @@
 		);
 
 		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-		if ($sendToTelegram) echo "yes"; else echo "error";
+		
+		// URL запроса
+		$url = "https://api.telegram.org/bot{$token}/sendMessage";
+
+		// Настройки curl
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, [
+			'chat_id'    => $chat_id,
+			'parse_mode' => 'html',
+			'text'       => $txt
+		]);
+		$response = curl_exec($ch);
+		if (curl_errno($ch)) echo "error: " . curl_error($ch);
+		else echo "yes";
+		curl_close($ch);
 
 		exit();
 	}	
@@ -69,8 +104,24 @@
 		);
 
 		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-		if ($sendToTelegram) echo "yes"; else echo "error";
+		
+		// URL запроса
+		$url = "https://api.telegram.org/bot{$token}/sendMessage";
+
+		// Настройки curl
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, [
+			'chat_id'    => $chat_id,
+			'parse_mode' => 'html',
+			'text'       => $txt
+		]);
+		$response = curl_exec($ch);
+		if (curl_errno($ch)) echo "error: " . curl_error($ch);
+		else echo "yes";
+		curl_close($ch);
 
 		exit();
 	}
@@ -98,8 +149,24 @@
 		);
 
 		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-		if ($sendToTelegram) echo "yes"; else echo "error";
+		
+		// URL запроса
+		$url = "https://api.telegram.org/bot{$token}/sendMessage";
+
+		// Настройки curl
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, [
+			'chat_id'    => $chat_id,
+			'parse_mode' => 'html',
+			'text'       => $txt
+		]);
+		$response = curl_exec($ch);
+		if (curl_errno($ch)) echo "error: " . curl_error($ch);
+		else echo "yes";
+		curl_close($ch);
 
 		exit();
 	}
