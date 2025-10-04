@@ -60,8 +60,10 @@
 			'Телефон: ' => $phone
 		);
 
-		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		
+		foreach ($arr as $key => $value) {
+			$txt .= "<b>".$key."</b> ".$value."\n";
+		}
+
 		// URL запроса
 		$url = "https://api.telegram.org/bot{$token}/sendMessage";
 
@@ -103,8 +105,10 @@
 			'Телефон: ' => $phone
 		);
 
-		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		
+		foreach ($arr as $key => $value) {
+			$txt .= "<b>".$key."</b> ".$value."\n";
+		}
+
 		// URL запроса
 		$url = "https://api.telegram.org/bot{$token}/sendMessage";
 
@@ -148,8 +152,10 @@
 			'Телефон: ' 	=> $phone
 		);
 
-		foreach($arr as $key => $value) {$txt .= "<b>".$key."</b> ".$value."%0A";};
-		
+		foreach ($arr as $key => $value) {
+			$txt .= "<b>".$key."</b> ".$value."\n";
+		}
+
 		// URL запроса
 		$url = "https://api.telegram.org/bot{$token}/sendMessage";
 
@@ -167,7 +173,7 @@
 		if (curl_errno($ch)) echo "error: " . curl_error($ch);
 		else echo "yes";
 		curl_close($ch);
-
+		
 		exit();
 	}
 	
