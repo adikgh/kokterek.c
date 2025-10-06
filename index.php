@@ -52,7 +52,7 @@
 					<div class="blj2_ic">
 						<div class="blj2_img lazy_img" data-src="/assets/img/bag/happy-senior-couple-with-exercise-mats-poolside.jpg"></div>
 						<div class="blj2_in">
-							<div class="blj2_in2">Более 20 видов лечения</div>
+							<div class="blj2_in2">Более 27 видов лечения</div>
 						</div>
 					</div>
 				</div>
