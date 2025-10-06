@@ -132,8 +132,7 @@
 			</div>
 
 			<div class="blj3_r">
-				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94158.10208707159!2d70.30119834158488!3d42.482182884759055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a89c26bc3bcecb%3A0x682d1672e1baba5f!2z0J7Qt9C00L7RgNC-0LLQuNGC0LXQu9GM0L3Ri9C5INC60L7QvNC_0LvQtdC60YEg0KLQsNC9INCd0YPRgNGL!5e0!3m2!1sru!2skz!4v1718671292043!5m2!1sru!2skz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2117.009607938442!2d69.0592685456762!3d41.37617693936111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae857c8968d45b%3A0x4e3e0d461d6f4237!2z0JDRgdGL0Lsg0LHRg9C70LDQug!5e0!3m2!1sru!2skz!4v1738669241456!5m2!1sru!2skz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1496.7231485657665!2d69.05564756925108!3d41.38611321210312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1759715521745!5m2!1sru!2skz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	</div>
@@ -372,18 +371,18 @@
 
 
 	<!-- block 5 -->
-	<div class="blx3" id="certificates">
+	<!-- <div class="blx3" id="certificates">
         <div class="bl_c">
             <div class="head_c">
                 <h1 class="txt_tu txt_c">Наши сертификат</h1>
             </div>
 			<div class="serct_dc">
 				<img src="" alt="" class="lazy_img" data-src="/assets/uploads/">
-				<!-- <img src="" alt="" class="lazy_img" data-src="/assets/uploads/Report (1)_page-0002.jpg"> -->
-				<!-- <img src="" alt="" class="lazy_img" data-src="/assets/uploads/Report (1)_page-0003.jpg"> -->
+				<img src="" alt="" class="lazy_img" data-src="/assets/uploads/Report (1)_page-0002.jpg">
+				<img src="" alt="" class="lazy_img" data-src="/assets/uploads/Report (1)_page-0003.jpg">
 			</div>
         </div>
-    </div>
+    </div> -->
 
 
 

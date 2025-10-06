@@ -1,32 +1,31 @@
-		<? if ($site_set['bl10']): ?>
-			<div class="bl10">
-				<div class="bl10_a lazy_bag" data-src="/assets/img/bag/bl11bag2.jpg"></div>
-				<div class="bl10_abc">
-					<div class="bl10_ab lazy_bag" data-src="/assets/img/bag/cloud_ab.png" style="--bl10:1"></div>
-					<div class="bl10_ab lazy_bag" data-src="/assets/img/bag/cloud_ab.png" style="--bl10:2"></div>
-					<div class="bl10_ab lazy_bag" data-src="/assets/img/bag/cloud_ab.png" style="--bl10:3"></div>
-					<div class="bl10_ab lazy_bag" data-src="/assets/img/bag/cloud_ab.png" style="--bl10:4"></div>
-					<div class="bl10_ab lazy_bag" data-src="/assets/img/bag/cloud_ab.png" style="--bl10:5"></div>
+		<div class="bl10">
+			<div class="bl10_c" data-aos="fade-up">
+				<div class="head_c txt_c">
+					<p><?=t::w('bl10_w')?></p>
 				</div>
-				<div class="bl10_c" data-aos="fade-up">
-					<div class="head_c txt_c">
-						<h4><?=t::w('Still have questions?')?></h4>
-						<p><?=t::w('bl10_w')?></p>
+				<div class="form_c">
+					<div class="form_im dsp_n">
+						<input type="text" class="sms" value="Консультация 2">
 					</div>
-					<div class="form_c">
-						<div class="form_im dsp_n">
-							<input type="text" class="sms" value="Консультация 2">
-						</div>
-						<div class="form_im">
-							<input type="tel" placeholder="8 (___) ___-__-__" class="form_txt phone fr_phone">
-						</div>
-						<div class="form_im">
-							<div class="btn send"><?=t::w('submit your')?></div>
-						</div>
+					<div class="form_im">
+						<input type="tel" placeholder="8 (___) ___-__-__" class="form_txt phone fr_phone">
+					</div>
+					<div class="form_im">
+						<div class="btn send"><?=t::w('submit your')?></div>
 					</div>
 				</div>
 			</div>
-		<? endif ?>
+			<h4><?=t::w('Still have questions?')?></h4>
+		</div>
+
+		<div class="bp19" id="contact">
+			<div class="bl_c">
+				<div class="bp19_c">
+					<div class=""></div>
+					<div class=""></div>
+				</div>
+			</div>
+		</div>
 
 	<!-- end body -->
 	</div>
@@ -60,7 +59,7 @@
 					</div>
 				<? endif ?>
 				<div class="footer_b">
-					<div class="footer_bl">© <?=$site['name']?>, 2022</div>
+					<div class="footer_bl">© <?=$site['name']?>, 2025</div>
 					<div class="footer_br">
 						<a href="https://gprog.kz" target="_blank" class="gprog_bl">
 							<span>#gprog-та</span>

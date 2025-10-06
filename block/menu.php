@@ -7,17 +7,18 @@
 						<div class="logo_i lazy_logo" data-src="/assets/img/logo/logo-s.jpg"></div>
 						<!-- <span><?=$site['name']?></span> -->
 					</a>
-					<div class="menu_wq">
-						<a class="menu_wqi" href="#treatment">Лечение</a>
-						<a class="menu_wqi" href="#numbers">Номера</a>
-						<a class="menu_wqi" href="#about"><?=t::w('About')?></a>
-						<a class="menu_wqi" href="#review">Отзывы</a>
-						<a class="menu_wqi" href="#contact"><?=t::w('Contacts')?></a>
-						<!-- <div class="lang">
-							<? if ($lang == 'kz'): ?> <a class="menu_wqi" href="<?=$url?>?lang=ru">Русский</a>
-							<? else: ?> <a class="menu_wqi" href="<?=$url?>?lang=kz">Қазақша</a> <? endif ?>
-						</div> -->
-					</div>
+				</div>
+
+				<div class="menu_wq">
+					<a class="menu_wqi" href="/">Главная</a>
+					<a class="menu_wqi" href="/treatment/">Лечение</a>
+					<a class="menu_wqi" href="/numbers/">Номера</a>
+					<a class="menu_wqi" href="/photo/">Галерея</a>
+					<a class="menu_wqi" href="#contact"><?=t::w('Contacts')?></a>
+					<!-- <div class="lang">
+						<? if ($lang == 'kz'): ?> <a class="menu_wqi" href="<?=$url?>?lang=ru">Русский</a>
+						<? else: ?> <a class="menu_wqi" href="<?=$url?>?lang=kz">Қазақша</a> <? endif ?>
+					</div> -->
 				</div>
 
 				<div class="header_r">

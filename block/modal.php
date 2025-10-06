@@ -37,7 +37,7 @@
 		<div class="pop_bl_a lechy_back"></div>
 		<div class="pop_bl_c">
 			<div class="pop_imge">
-				<img class="lazy_img" data-src="/assets/uploads/lesh.jpg">
+				<img class="lazy_img" data-src="/assets/uploads/IMG_7315.JPG">
 			</div>
 			<div class="pop_bl_cl">
 				<div class="btn btn_back lechy_back">
@@ -54,7 +54,7 @@
 		<div class="pop_bl_a price_back"></div>
 		<div class="pop_bl_c">
 			<div class="pop_imge">
-				<img class="lazy_img" data-src="/assets/uploads/price1.jpg">
+				<img class="lazy_img" data-src="/assets/uploads/chrome_guSpN9TdJz.png">
 			</div>
 			<div class="pop_bl_cl">
 				<div class="btn btn_back price_back">

@@ -539,7 +539,7 @@ ul, li{list-style:none}
 	position: relative;
 	min-height: 64px;
 	padding: 12px 26px;
-	border-radius: 12px;
+	border-radius: 64px;
 	text-align: center;
 	font-size: 15px;
 	font-weight: 500;
