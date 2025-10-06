@@ -30,7 +30,6 @@
 	</div>
 
 
-
 	<!--  -->
 	<div class="blj2" id="">
 		<div class="bl_c">
@@ -43,7 +42,7 @@
 			<div class="blj2_c">
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/IMG_6049.PNG"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/IMG_2053.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Лечебная вода</div>
 						</div>
@@ -51,7 +50,7 @@
 				</div>
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/close-up-doctor-holding-patient.jpg"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/bag/happy-senior-couple-with-exercise-mats-poolside.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Более 20 видов лечения</div>
 						</div>
@@ -59,7 +58,7 @@
 				</div>
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/IMG_2090.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Чистый воздух</div>
 						</div>
@@ -67,7 +66,7 @@
 				</div>
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/bag/beautician-woman-clinic.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Профессиональный персонал</div>
 						</div>
@@ -75,7 +74,7 @@
 				</div>
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/IMG_2092.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Уютная атмосфера</div>
 						</div>
@@ -83,7 +82,7 @@
 				</div>
 				<div class="blj2_i">
 					<div class="blj2_ic">
-						<div class="blj2_img lazy_img" data-src="/assets/img/bag/Frame 12 656.jpg"></div>
+						<div class="blj2_img lazy_img" data-src="/assets/img/IMG_2130.jpg"></div>
 						<div class="blj2_in">
 							<div class="blj2_in2">Вкусный питание</div>
 						</div>
@@ -94,6 +93,36 @@
 	</div>
 
 
+	
+	<!--  -->
+	<div class="blj4" id="">
+		<div class="bl_c">
+			<div class="head_c">
+				<div class="head_v1 txt_c">
+					<h1>Вы найдете то, что <br> нужно именно вам</h1>
+				</div>
+			</div>
+			<div class="blj4_c">
+
+				<div class="blj4_i">
+					<div class="blj4_it"></div>
+					<div class="blj4_ih">Переночевать</div>
+					<div class="blj4_ip">остановиться на ночлег и с радостью провести время любуясь красивой природой</div>
+				</div>
+				<div class="blj4_i">
+					<div class="blj4_it"></div>
+					<div class="blj4_ih">Уединиться</div>
+					<div class="blj4_ip">провести время наедине с собой и близкими в тихом уголке нашеи страны</div>
+				</div>
+				<div class="blj4_i">
+					<div class="blj4_it"></div>
+					<div class="blj4_ih">Исследовать мир</div>
+					<div class="blj4_ip">получить яркие впечатления и эмоции от экскурсий и экстремального туризма</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 
 	<!--  -->
 	<div class="blj3" id="">
@@ -138,66 +167,6 @@
 	</div>
 
 
-	
-
-
-
-
-	<!--  -->
-	<!-- <div class="blj4" id="">
-		<div class="bl_c">
-			<div class="head_c">
-				<div class="head_v1 txt_c">
-					<h1>Вы найдете то, что <br> нужно именно вам</h1>
-				</div>
-			</div>
-			<div class="blj4_c">
-
-				<div class="blj4_i">
-					<div class="blj4_it"></div>
-					<div class="blj4_ih">Переночевать</div>
-					<div class="blj4_ip">остановиться на ночлег и с радостью провести время любуясь красивой природой</div>
-				</div>
-				<div class="blj4_i">
-					<div class="blj4_it"></div>
-					<div class="blj4_ih">Уединиться</div>
-					<div class="blj4_ip">провести время наедине с собой и близкими в тихом уголке нашеи страны</div>
-				</div>
-				<div class="blj4_i">
-					<div class="blj4_it"></div>
-					<div class="blj4_ih">Исследовать мир</div>
-					<div class="blj4_ip">получить яркие впечатления и эмоции от экскурсий и экстремального туризма</div>
-				</div>
-				
-			</div>
-		</div>
-	</div> -->
-
-	
-	<!--  -->
-	<!-- <div class="blj5" id="bl2">
-		<div class="bl_c">
-			<div class="blj5_rz">
-				<div class="blj5_rzr">
-					<div class="blj5_rzrc lazy_img" data-src="/assets/img/bag/close-up-doctor-holding-patient.jpg"></div>
-				</div>
-				<div class="blj5_rzll">
-					<div class="head_c">
-						<div class="head_v1">
-							<h3>ВРЕМЕНННАЯ АКЦИЯ</h3>
-							<div class="head_vt" >Это не розыгрыш!</div>
-						</div>
-					</div>
-					<div class="blj5_te">Абсолютно каждому не курящему гостю, забронировавшему проживание в наших гостевых домах на свободные даты в мае, первые сутки проживания предоставляются с оплатой по сердцу, то есть сколько вашей душе будет угодно</div>
-					<div class="blj5_b" >
-						<a class="btn" target="_blank" href="https://wa.me/<?=$site['whatsapp']?>">ПЕРЕЙТИ К БРОНИРОВАНИЮ</a>
-					</div>
-				</div>
-				<div class="blj5_rzlr">* Начиная со вторых суток оплата за проживание согласно предоставленным тарифам</div>
-			</div>
-		</div>
-	</div> -->
-
 
 
 
@@ -223,11 +192,6 @@
 					<div class="btn">Показать все</div>
 				</div>
 			</div>
-
-            <!-- <div class="bl5_b ">
-                <p>У нас есть подходящие процедуры для каждого гостя</p>
-                <a href="lechenie.php"><div class="btn"><span>Посмотреть все процедуры </span><i class="far fa-long-arrow-right"></i></div></a>
-            </div> -->
 
         </div>
     </div>
